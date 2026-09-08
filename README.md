@@ -11,3 +11,19 @@ This repo is **not** a study handbook. Curated notes, patterns, and cleaned-up s
 3. When a problem is worth keeping, copy it into `dsa-notes/problems/<id>-<slug>/` and add `pattern:` metadata there.
 
 Do not edit this repo by hand. Treat it as an append-only inbox.
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
+<!---LeetCode Topics End-->
