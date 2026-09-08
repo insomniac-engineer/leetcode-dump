@@ -33,4 +33,16 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
