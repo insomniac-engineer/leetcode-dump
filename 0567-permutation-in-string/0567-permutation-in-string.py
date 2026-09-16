@@ -1,22 +1,27 @@
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        # Time Complexity: O(n * 26)
+        # Time Complexity: O(n)
         # Space Complexity: O(1)
-        # permutation -> the count must be equal, values can be shuffled (order matters)
-        pattern = Counter(s1) # [a] -> 1 [b] -> 2
+        freq_map = defaultdict(int)
         l = 0
-        seen = defaultdict(int)
-        len_s1 = len(s1)
+        pattern_map = Counter(s1)
+        need, have = len(pattern_map), 0
         for r in range(len(s2)):
-            seen[s2[r]] += 1 # e -> 1
+            freq_map[s2[r]] += 1
+            if freq_map[s2[r]] == pattern_map[s2[r]]:
+                have += 1
 
-            if r - l + 1 > len_s1:
-                seen[s2[l]] -= 1
-                if seen[s2[l]] <= 0:
-                    del seen[s2[l]]
+            while r - l + 1 > len(s1):
+                if freq_map[s2[l]] == pattern_map[s2[l]]:
+                    have -= 1
+                freq_map[s2[l]] -= 1
+                if freq_map[s2[l]] == 0:
+                    del freq_map[s2[l]]
                 l += 1
 
-            # We are comparing n times 26 ASCII symbols (characters)
-            if seen == pattern: return True
-            
+            if need == have:
+                return True
+            # It requires O(26*n) in the worst case
+            # if pattern_map == freq_map:
+            #     return True
         return False
