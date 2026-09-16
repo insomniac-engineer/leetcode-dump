@@ -2,6 +2,8 @@ class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         # Time Complexity: O(n)
         # Space Complexity: O(1)
+        if len(s1) > len(s2):
+            return False
         freq_map = defaultdict(int)
         l = 0
         pattern_map = Counter(s1)
