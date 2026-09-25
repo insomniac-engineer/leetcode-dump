@@ -5,6 +5,9 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: ListNode | None, list2: ListNode | None) -> ListNode | None:
+        # Dummy node pattern
+        # TC: O(n + k)
+        # SC: O(1)
         dummy = ListNode(0)
         tail = dummy
 
@@ -16,14 +19,8 @@ class Solution:
                 tail.next = list2
                 list2 = list2.next
             tail = tail.next
-        # Elegant way to append the rest of list O(1)
-        tail.next = list1 or list2
-        # while list1:
-        #     dummy.next = list1
-        #     list1 = list1.next
-        #     dummy = dummy.next
-        # while list2:
-        #     dummy.next = list2
-        #     list2 = list2.next
-        #     dummy = dummy.next
+        if list1:
+            tail.next = list1
+        else:
+            tail.next = list2
         return dummy.next
