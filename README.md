@@ -79,4 +79,20 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0226-invert-binary-tree/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0226-invert-binary-tree/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0226-invert-binary-tree/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0226-invert-binary-tree](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0226-invert-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
