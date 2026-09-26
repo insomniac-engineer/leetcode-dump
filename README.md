@@ -22,6 +22,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
 | [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
 ## Monotonic Stack
@@ -59,17 +60,20 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
+| [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
+| [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0206-reverse-linked-list/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0206-reverse-linked-list/) | Easy |
 ## Floyd's Cycle Finding Algorithm
 | Problem Name | Difficulty |
