@@ -39,6 +39,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0076-minimum-window-substring/) | Hard |
+| [0138-copy-list-with-random-pointer](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
@@ -68,6 +69,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0138-copy-list-with-random-pointer](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0206-reverse-linked-list/) | Easy |
