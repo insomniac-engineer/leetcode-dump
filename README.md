@@ -59,12 +59,14 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
