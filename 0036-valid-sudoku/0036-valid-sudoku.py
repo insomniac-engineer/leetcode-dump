@@ -1,8 +1,11 @@
 class Solution:
     def isValidSudoku(self, board: list[list[str]]) -> bool:
+        # TC:
+        # SC:
+
         # 1 cycle - check all rows
         # 2 cycle - check all columns
-        # 3 cycle - check all quarters
+        # 3 cycle - check all quarters (tuple(index_r//3, index_c//3), e.g. 0//3, 1//3)
 
         # Check rows
         duplicate_el = set()
@@ -16,7 +19,7 @@ class Solution:
             duplicate_el.clear()
 
         # Check cols
-        for idx_c, col in enumerate(board):
+        for idx_c in range(len(board)):
             for el in board:
                 if el[idx_c] == ".": continue
                 if el[idx_c] in duplicate_el:
