@@ -1,5 +1,8 @@
 class Solution:
     def checkDirections(self, coordinate, grid, to_visit, seen) -> None:
+        # Array only solution
+        # TC: O(n)
+        # SC: O(n*m)
         idx_r = coordinate[0]
         idx_c = coordinate[1]
         # check left/right
@@ -18,9 +21,6 @@ class Solution:
                 to_visit.add((idx_r + 1, idx_c))
         seen.add((idx_r, idx_c))
     def numIslands(self, grid: List[List[str]]) -> int:
-        # (0,0) ->1
-        # (0,1) -> 1
-        # (0,2) -> 1
         islands = 0 
         seen = set()
         to_visit = set()
