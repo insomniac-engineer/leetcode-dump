@@ -1,13 +1,17 @@
 class Solution:
     def missingNumber(self, nums: list[int]) -> int:
-        # 0 1 3
+        # # TC: 0(nlogn)
+        # # SC: O(1)
+        # nums.sort()
 
-        # if index != val -> return val
-        # TC: 0(nlogn)
-        # SC: O(1)
-        nums.sort()
+        # for i in range(0, len(nums)):
+        #     if nums[i] != i: return i
+        # # [0, n], last element should be n
+        # return len(nums)
 
-        for i in range(0, len(nums)):
-            if nums[i] != i: return i
-            if i == len(nums) - 1: return len(nums)
-        return -1
+        #range is exclusive for last element
+        #TC: O(n)
+        #SC: O(1)
+        expected_sum = sum(range(len(nums) + 1))
+        actual_sum = sum(nums)
+        return expected_sum - actual_sum
