@@ -20,6 +20,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0036-valid-sudoku](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0036-valid-sudoku/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0200-number-of-islands/) | Medium |
+| [0219-contains-duplicate-ii](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
@@ -49,6 +50,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
+| [0219-contains-duplicate-ii](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
@@ -64,6 +66,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0076-minimum-window-substring/) | Hard |
+| [0219-contains-duplicate-ii](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
 ## Two Pointers
