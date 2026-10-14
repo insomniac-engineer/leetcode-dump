@@ -25,6 +25,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0287-find-the-duplicate-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
+| [1266-minimum-time-visiting-all-points](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1266-minimum-time-visiting-all-points/) | Easy |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
@@ -146,8 +147,13 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
+| [1266-minimum-time-visiting-all-points](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1266-minimum-time-visiting-all-points/) | Easy |
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1266-minimum-time-visiting-all-points/) | Easy |
 <!---LeetCode Topics End-->
