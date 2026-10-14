@@ -25,6 +25,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0287-find-the-duplicate-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -41,6 +42,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,6 +56,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -143,4 +146,8 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 <!---LeetCode Topics End-->
