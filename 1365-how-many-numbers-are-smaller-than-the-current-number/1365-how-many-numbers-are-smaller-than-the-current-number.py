@@ -1,22 +1,19 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: list[int]) -> list[int]:
-        # 1 2 2 3 8
-        # can't just return idx + 1 bc we have duplicates for "2"
-        # [1] -> 0
-        # [2] -> 1
-
-        sorted_val_index = {}
+        # SC: O(n)
+        # TC: O(nlogn) sorting
         
-        sorted_nums = sorted(nums)
+        # Another way O(N) is to count frequencies of 102 values, kinda overkill
+        sorted_val_index = {}
 
-        for idx, val in enumerate(sorted_nums):
-            if val in sorted_val_index: # duplicate
-                continue
-            sorted_val_index[val] = idx
+        for idx, val in enumerate(sorted(nums)):
+            if val not in sorted_val_index: # duplicate
+                sorted_val_index[val] = idx
+        # for each value in nums return index
+        return [sorted_val_index[val] for val in nums]
+        # res = list()
 
-        res = list()
-
-        for i in nums:
-            print(i)
-            res.append(sorted_val_index[i])
-        return res
+        # for i in nums:
+        #     print(i)
+        #     res.append(sorted_val_index[i])
+        # return res
