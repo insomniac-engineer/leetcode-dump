@@ -3,46 +3,68 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
 class Solution:
-    def reorderList(self, head: ListNode | None) -> None:
-        if not head or not head.next:
-            return
-        """
-        Do not return anything, modify head in-place instead.
-        """
-        # TC: O(N)
+    def reorderList(self, head: Optional[ListNode]) -> None:
+        # TC: O(n)
         # SC: O(1)
 
-        # 1. Slow & Fast pointer to find half of the list
+        # Requires 3 algo:
+        # divide linked list into 2 parts (find length first)
+        # reverse the second part (first part.next = None)
+        # match zigzag
 
-        slow, fast = head, head
+        if not head or not head.next:
+            return
 
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
-
-        # 2. IMPORTANT: divide list into half and reverse SECOND half
-        second = slow.next # 4->5
-        slow.next = None # 1->2->3->None
-
-        prev = None
-        curr = second
+        # Calculate length of linked list
+        list_len = 0
+        curr = head
 
         while curr:
-            nxt = curr.next #4 5
-            curr.next = prev # 4->3 -> None
+            list_len += 1
+            curr = curr.next
+        half_len = list_len // 2 #first part is smaller
 
-            prev = curr # 3
-            curr = nxt # 4
+        p2 = head
 
-        # 3. Match head with tail
+        # divide into 2 parts
+        for _ in range(half_len):
+            p2 = p2.next
 
-        while head and prev:
-            tmp1 = head.next
-            tmp2 = prev.next
+        p1 = head
 
-            head.next = prev
-            prev.next = tmp1
+        # cut connection to the second part
+        while p1.next != p2:
+            p1 = p1.next
 
-            head = tmp1
-            prev = tmp2
+        p1.next = None
+
+        # reverse
+        curr, prev = p2, None
+        while curr:
+            nxt = curr.next
+            curr.next = prev
+
+            prev = curr
+            curr = nxt
+        tail = prev
+        # [0,1,2,3]
+        # [6 5 4]
+
+        start = head
+        # 0 -> 6 -> 1 (ZIGZAG)
+        while tail and start:
+            temp_tail = tail.next
+            temp_start = start.next
+
+            start.next = tail # 0->6
+            tail.next = temp_start # 0->6->1
+            tail = temp_tail
+            start = temp_start
+
+        if tail:
+            start = head
+            while start.next:
+                start = start.next
+            start.next = tail
