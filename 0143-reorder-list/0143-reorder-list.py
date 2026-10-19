@@ -17,27 +17,13 @@ class Solution:
         if not head or not head.next:
             return
 
-        # Calculate length of linked list
-        list_len = 0
-        curr = head
+        p1, p2 = head, head
 
-        while curr:
-            list_len += 1
-            curr = curr.next
-        half_len = list_len // 2 #first part is smaller
-
-        p2 = head
-
-        # divide into 2 parts
-        for _ in range(half_len):
-            p2 = p2.next
-
-        p1 = head
-
-        # cut connection to the second part
-        while p1.next != p2:
+        while p2 and p2.next:
             p1 = p1.next
+            p2 = p2.next.next
 
+        p2 = p1.next
         p1.next = None
 
         # reverse
@@ -62,9 +48,3 @@ class Solution:
             tail.next = temp_start # 0->6->1
             tail = temp_tail
             start = temp_start
-
-        if tail:
-            start = head
-            while start.next:
-                start = start.next
-            start.next = tail
