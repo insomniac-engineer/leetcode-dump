@@ -5,34 +5,27 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: ListNode | None, n: int) -> ListNode | None:
-        # Find Node to remove
-        # prev.next = prev.next.next
+        if not head.next and n == 1: return None
+        # Remove means node will point on node k + 1
+        # curr.next = curr.next.next
 
-        # TC: O(n)
-        # SC: O(1)
-        if not head.next: return None
-
-        node_to_remove, start = head, head
-        length_list = 0
-
-        while start:
-            length_list += 1
-            start = start.next
-
-        for _ in range(length_list - n):
-            node_to_remove = node_to_remove.next
-
-        # IMPORTANT! DELETE HEAD edge case
-        if node_to_remove == head: return head.next
+        s, f = head, head
+        # Slow pointer will start n times late
+        # It will point on element to remove
+        for _ in range(n):
+            f = f.next #3
+        
+        while f:
+            s = s.next
+            f = f.next 
+        
         curr = head
 
-        while curr:
-            print(curr.val)
-            if curr.next == node_to_remove: break
+        # Edge case: if we move head
+        if s == head: return head.next
+
+        while curr.next != s:
             curr = curr.next
-        curr.next = curr.next.next
-
-        return head
-
-
         
+        curr.next = curr.next.next
+        return head
