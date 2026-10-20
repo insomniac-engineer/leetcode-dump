@@ -5,6 +5,8 @@
 #         self.next = next
 class Solution:
     def removeNthFromEnd(self, head: ListNode | None, n: int) -> ListNode | None:
+        # TC: O(N)
+        # SC: O(1)
         if not head.next and n == 1: return None
         # Remove means node will point on node k + 1
         # curr.next = curr.next.next
