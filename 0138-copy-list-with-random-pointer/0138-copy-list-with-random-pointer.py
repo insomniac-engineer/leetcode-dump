@@ -9,24 +9,31 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        # TC: O(N)
+        # TC: O(n)
         # SC: O(1)
-        if not head:
-            return None
+        orig_to_copy = dict()
 
-        old_to_new = {}
-        # 1. Create copies of ALL nodes
         curr = head
+        curr2 = head
+        dummy = Node(0)
+        start = dummy
+        res = dummy
         while curr:
-            old_to_new[curr] = Node(curr.val)
+            orig_to_copy[curr] = Node(curr.val)
+            #print(orig_to_copy[curr].val)
             curr = curr.next
+        # [orig 7-> copy 7]
+        
+        for orig, duplicate in orig_to_copy.items():
+            dummy.next = duplicate
+            dummy = dummy.next
 
-        # 2: Set next and random for COPIES
-        curr = head
-        while curr:
-            # old_to_new.get(...) вернет None, если указатель равен None
-            old_to_new[curr].next = old_to_new.get(curr.next)
-            old_to_new[curr].random = old_to_new.get(curr.random)
-            curr = curr.next
-        # Return copy of new head
-        return old_to_new[head]
+        start = start.next
+
+        for orig, duplicate in orig_to_copy.items():
+            if orig.random == None:
+                start.random  = None
+            else:
+                start.random = orig_to_copy[orig.random]
+            start = start.next
+        return res.next
