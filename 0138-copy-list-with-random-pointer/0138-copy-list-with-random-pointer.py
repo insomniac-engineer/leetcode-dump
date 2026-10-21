@@ -9,18 +9,19 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        # TC: O(n)
-        # SC: O(n)
+        # Step 1: create original to copy dict [orig_node] -> copy_node
+        # Step 2: iterate over dict, and for each value (copy) set next and rndm
         orig_to_copy = dict()
 
-        curr = head
+        dummy = head
 
-        while curr:
-            orig_to_copy[curr] = Node(curr.val)
-            curr = curr.next
+        while dummy:
+            orig_to_copy[dummy] = Node(dummy.val)
+            dummy = dummy.next
         
-        for orig, duplicate in orig_to_copy.items():
-            duplicate.next = orig_to_copy.get(orig.next)
-            duplicate.random = orig_to_copy.get(orig.random)
+        #print(orig_to_copy)
 
+        for orig, copy in orig_to_copy.items():
+            copy.next = orig_to_copy.get(orig.next)
+            copy.random = orig_to_copy.get(orig.random)
         return orig_to_copy.get(head)
