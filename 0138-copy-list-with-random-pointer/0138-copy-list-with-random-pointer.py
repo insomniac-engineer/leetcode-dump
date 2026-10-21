@@ -9,6 +9,8 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
+        # TC: O(N)
+        # SC: O(N)
         # Step 1: create original to copy dict [orig_node] -> copy_node
         # Step 2: iterate over dict, and for each value (copy) set next and rndm
         orig_to_copy = dict()
