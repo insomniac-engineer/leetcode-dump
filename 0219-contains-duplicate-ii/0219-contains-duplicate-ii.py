@@ -1,14 +1,11 @@
 class Solution:
     def containsNearbyDuplicate(self, nums: list[int], k: int) -> bool:
-        # dict [val] -> index
-        # iterate through nums and check if the val is alr in dict
-        # if the val is in dict - we found the duplicate
+        value_index = dict()
+        i = 0
 
-        index_val = defaultdict(int)
-
-        for idx, val in enumerate(nums):
-            if val in index_val:
-                if abs(idx - index_val[val]) <= k:
-                    return True
-            index_val[val] = idx
+        while i < len(nums):
+            if nums[i] in value_index and abs(i - value_index[nums[i]]) <= k:
+                return True
+            value_index[nums[i]] = i
+            i += 1
         return False
