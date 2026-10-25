@@ -1,3 +1,4 @@
+# Absolutery horrbile & unituitive task
 class Solution:
     def findDuplicate(self, nums: list[int]) -> int:
         slow, fast = 0, 0
