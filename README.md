@@ -43,6 +43,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
+| [0242-valid-anagram](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
@@ -57,6 +58,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
 | [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0242-valid-anagram](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
@@ -66,6 +68,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0076-minimum-window-substring/) | Hard |
+| [0242-valid-anagram](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0567-permutation-in-string/) | Medium |
 ## Sliding Window
