@@ -20,6 +20,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0036-valid-sudoku](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0036-valid-sudoku/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0200-number-of-islands/) | Medium |
+| [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0287-find-the-duplicate-number/) | Medium |
@@ -41,6 +42,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
@@ -53,6 +55,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
+| [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
