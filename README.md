@@ -19,6 +19,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0001-two-sum](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0001-two-sum/) | Easy |
 | [0036-valid-sudoku](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0036-valid-sudoku/) | Medium |
+| [0049-group-anagrams](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0200-number-of-islands/) | Medium |
 | [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
@@ -43,6 +44,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0049-group-anagrams](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0049-group-anagrams/) | Medium |
 | [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
 | [0242-valid-anagram](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
@@ -54,6 +56,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0001-two-sum](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0036-valid-sudoku](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0036-valid-sudoku/) | Medium |
+| [0049-group-anagrams](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0076-minimum-window-substring/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0138-copy-list-with-random-pointer/) | Medium |
@@ -69,6 +72,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0049-group-anagrams](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0049-group-anagrams/) | Medium |
 | [0076-minimum-window-substring](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0076-minimum-window-substring/) | Hard |
 | [0242-valid-anagram](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0242-valid-anagram/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0424-longest-repeating-character-replacement/) | Medium |
