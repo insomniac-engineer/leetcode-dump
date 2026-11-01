@@ -1,5 +1,7 @@
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+        # TC: O(N * k)
+        # SC: O(N) - because we don't copy/create string. we just put their ref in
         # in anagrams freq of characters are the same
         # e.g. eat: 'e' -> 1 'a' -> 1 't' -> 1
 
