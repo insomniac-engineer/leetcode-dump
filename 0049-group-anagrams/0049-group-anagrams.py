@@ -1,20 +1,12 @@
 class Solution:
-    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         # TC: O(N * k)
-        # SC: O(N) - because we don't copy/create string. we just put their ref in
-        # in anagrams freq of characters are the same
-        # e.g. eat: 'e' -> 1 'a' -> 1 't' -> 1
-
-        # (0, 0, 0, 0, 0, ...)
-        # (1, 0, 0, 0, 0, ...) 'a'
-
-        anagrams_dict = defaultdict(list)
-
+        # SC: O(N), we put references of each string to dict
+        freq_counter = [0] * 26
+        pattern_words = defaultdict(list)
         for s in strs:
-            freq_chars = [0] * 26
+            freq_counter = [0] * 26
             for ch in s:
-                pos = ord(ch) - ord('a')
-                freq_chars[pos] += 1
-            freq_chars_tuple = tuple(freq_chars)
-            anagrams_dict[freq_chars_tuple].append(s)
-        return list(anagrams_dict.values())
+                freq_counter[ord(ch) - ord('a')] += 1
+            pattern_words[tuple(freq_counter)].append(s)
+        return list(pattern_words.values())
