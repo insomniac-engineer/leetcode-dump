@@ -18,6 +18,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0001-two-sum/) | Easy |
+| [0011-container-with-most-water](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0011-container-with-most-water/) | Medium |
 | [0036-valid-sudoku](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -91,6 +92,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0011-container-with-most-water/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0143-reorder-list/) | Medium |
@@ -194,4 +196,8 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
