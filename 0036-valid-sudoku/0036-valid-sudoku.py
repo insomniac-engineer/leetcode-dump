@@ -1,39 +1,34 @@
 class Solution:
-    def isValidSudoku(self, board: list[list[str]]) -> bool:
-        # TC:
-        # SC:
-
-        # 1 cycle - check all rows
-        # 2 cycle - check all columns
-        # 3 cycle - check all quarters (tuple(index_r//3, index_c//3), e.g. 0//3, 1//3)
-
-        # Check rows
-        duplicate_el = set()
-
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        # check rows unique
         for row in board:
-            for el in row:
-                if el == ".": continue
-                if el in duplicate_el:
+            unique_row = set()
+            for column in row:
+                if column == ".": continue
+                if column in unique_row:
                     return False
-                duplicate_el.add(el)
-            duplicate_el.clear()
+                unique_row.add(column)
 
-        # Check cols
-        for idx_c in range(len(board)):
-            for el in board:
-                if el[idx_c] == ".": continue
-                if el[idx_c] in duplicate_el:
+        # check column unique
+        for column_idx in range(len(board[0])): # [0 - 9)
+            unique_column = set()
+            for row in board:
+                if row[column_idx] == ".": continue
+                if row[column_idx] in unique_column:
                     return False
-                duplicate_el.add(el[idx_c])
-            duplicate_el.clear()
+                unique_column.add(row[column_idx])
 
-        dup_dict = defaultdict(set)
-        # Check quarters
-        for idx_c, col in enumerate(board):
-            for idx_r, el in enumerate(col):
-                if el == ".": continue
-                quarter = (idx_r//3, idx_c//3)
-                if el in dup_dict[quarter]:
+        # (colum // 3, row // 3)
+        # (5//3, 2//3) -> (1, 0)
+        # (4//3, 1//3) -> (1, 0)
+
+        quadrant = defaultdict(set)
+
+        for row_idx, row in enumerate(board):
+            for col_idx, col_val in enumerate(row):
+                if col_val == ".": continue
+                if col_val in quadrant[(row_idx // 3, col_idx // 3)]:
                     return False
-                dup_dict[quarter].add(el)
+                quadrant[(row_idx // 3, col_idx // 3)].add(col_val)
+
         return True
