@@ -22,6 +22,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0015-3sum](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0015-3sum/) | Medium |
 | [0036-valid-sudoku](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0049-group-anagrams/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0200-number-of-islands/) | Medium |
 | [0217-contains-duplicate](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0217-contains-duplicate/) | Easy |
@@ -203,4 +204,8 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0011-container-with-most-water/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 <!---LeetCode Topics End-->
