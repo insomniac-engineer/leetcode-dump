@@ -30,6 +30,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0704-binary-search](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0704-binary-search/) | Easy |
 | [0739-daily-temperatures](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0853-car-fleet/) | Medium |
 | [1266-minimum-time-visiting-all-points](https://github.com/insomniac-engineer/leetcode-dump/tree/main/1266-minimum-time-visiting-all-points/) | Easy |
@@ -150,6 +151,7 @@ Do not edit this repo by hand. Treat it as an append-only inbox.
 | ------- | ------- |
 | [0268-missing-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0268-missing-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0704-binary-search](https://github.com/insomniac-engineer/leetcode-dump/tree/main/0704-binary-search/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
